@@ -18,3 +18,55 @@ body.ng-cloak
 {
 	display: block;
 }
+
+
+/** Header 
+ 
+**/
+
+
+.navbar-inverse {
+    background-color: white;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #9d9d9d;
+}
+
+
+/** Search Box
+  ----------------------------------
+**/
+.form-wrapper {
+    margin-top: 150px;
+}
+
+.fcorn-shortcodes .search-box {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.fcorn-shortcodes .search-box > input.search {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 15px;
+  font-weight: 100;
+  color: #686868;
+  border: 1px solid rgba(159, 159, 159, 0.2);
+  box-shadow: 0 0 3px rgba(60, 60, 60, 0.05);
+  position: relative;
+  overflow: hidden;
+}
+.fcorn-shortcodes .search-box > input.search:focus {
+  border: 1px solid #63c6ef;
+  outline: none;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
