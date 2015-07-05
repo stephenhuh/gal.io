@@ -4,10 +4,14 @@
             <div class="row">
                 <!-- Search box and Star Rating -->
                 <div class="col-md-10 col-sm-12 col-centered">
+                    <div class="prototype" ng-model="prototype"> 
+                        {{ptype}}
+                    </div>
                     <form class="search-box" ng-submit="submitCmd()" method="get">
-                        <input type="search" placeholder="Issue commands" ng-model="cmd" class="search">
+                        <input autofocus type="search" placeholder="Issue commands" ng-model="cmd" ng-keyup="showPrototype()" class="search">
                     </form>
-                    <pre>list = {{list}}</pre>
+                    <pre>{{list}}</pre>
+
                 </div>
             </div>
         </div>
